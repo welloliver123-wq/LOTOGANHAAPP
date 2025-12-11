@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './AuthContext';
 import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
 import GameGenerator from './components/GameGenerator';
