@@ -24,7 +24,7 @@ const App: React.FC = () => {
       <HashRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
-          
+
           <Route path="/" element={
             <RequireAuth>
               <Layout />
@@ -36,7 +36,7 @@ const App: React.FC = () => {
             <Route path="educacao" element={<Education />} />
             <Route path="roi" element={<ROICalculator />} />
           </Route>
-          
+
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </HashRouter>
